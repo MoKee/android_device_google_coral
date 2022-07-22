@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_google_coral",
+    "target_path": "vendor/google/coral"
+  },
+  {
     "repository": "android_kernel_google_coral",
     "target_path": "kernel/google/coral"
   },

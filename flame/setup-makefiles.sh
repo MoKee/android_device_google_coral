@@ -30,8 +30,8 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 # Warning headers and guards
 write_headers
 
-write_makefiles "${MY_DIR}/lineage-proprietary-files.txt" true
-write_makefiles "${MY_DIR}/lineage-proprietary-files-vendor.txt" true
+write_makefiles "${MY_DIR}/mokee-proprietary-files.txt" true
+write_makefiles "${MY_DIR}/mokee-proprietary-files-vendor.txt" true
 
 # Finish
 write_footers
